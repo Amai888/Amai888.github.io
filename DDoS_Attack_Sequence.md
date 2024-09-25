@@ -1,4 +1,3 @@
-#DDoS Attack Sequence Diagram 
 ```mermaid
 sequenceDiagram
     participant Attacker
