@@ -32,4 +32,3 @@ sequenceDiagram
 7. **Firewall blocks the BotNet**: The firewall continues its defense by blocking additional malicious IP addresses from the botnet to prevent further attacks.
 
 8. **Firewall attempts to trace the Attacker**: In some cases, the firewall or security system may attempt to trace back the attack to the original attacker to gather information about the attacker's identity or source.
-
