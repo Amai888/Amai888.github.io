@@ -4,15 +4,16 @@ sequenceDiagram
     participant BotNet
     participant WebServer
     participant Firewall
-```    
-    Attacker->>BotNet: Command bots to attack WebServer
-    BotNet->>WebServer: Flood WebServer with massive traffic (DDoS)
-    WebServer->>Firewall: Alerts of abnormal traffic
-    Firewall->>Firewall: Analyzes traffic patterns
-    Firewall->>WebServer: Filters and blocks malicious traffic
-    WebServer->>LegitimateUsers: Limited or delayed response due to overload
-    Firewall-->>BotNet: Blocks malicious IP addresses
-    Firewall->>Attacker: Attempts to trace origin of attack
+```
+  Attacker->>BotNet: Command bots to attack WebServer
+  BotNet->>WebServer: Flood WebServer with massive traffic (DDoS)    
+  WebServer->>Firewall: Alerts of abnormal traffic
+  Firewall->>Firewall: Analyzes traffic patterns
+  Firewall->>WebServer: Filters and blocks malicious traffic
+  WebServer->>LegitimateUsers: Limited or delayed response due to overload
+  Firewall-->>BotNet: Blocks malicious IP addresses
+  Firewall->>Attacker: Attempts to trace origin of attack
+```
 
 ##Step-by-Step Description of the DDoS Attack Sequence 
 
